@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <title>Bilili's Kitchen</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="main">
@@ -59,294 +59,294 @@
     </div>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
-     <style>
-            *{
-        margin: 0%;
-        padding:0%;
+<style>
+    *{
+margin: 0%;
+padding:0%;
+
+}
+.main {
+background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(bdg.jpg);
+background-position: center;
+background-size: cover;
+height: 209vh;
+}
+.navbr {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orangered;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top:10px;
+    text-decoration-style: double;
+} 
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 27px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition:0.5s ease-in-out;
+}
+
+ul li a:hover{
+    color: orangered;
+}
+
+.search {
+    width:400px;
+    float:left;
+    margin-left: 260px;
+}
+
+.srch {
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid;
+    margin-top:15px;
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: orangered;
+    border: 2px solid orangered;
+    margin-top:13px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 9px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: .3s ease;
+}
+
+.btn:hover{
+    background: transparent;
+    border-color:white;
+}
+
+.a {
+    text-decoration: none;
+}
+
+
+.a:hover{
+    color:black;
+}
+
+.btn:focus {
+    outline:none;
+}
+
+.srch:focus {
+    outline:none;
+}
+
+.content {
+    width:1200px;
+    padding: 10px;
+    height: auto;
+    margin: auto;
+    color:whitesmoke;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.content .cn{
+    padding: 10px;
+    font-family: sans-serif;
+    background: orangered;
+    border:none;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 17px;
+    border-radius: 7px;
+    cursor:pointer;
+    transition: .4s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color:black;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background: white;
+}
+
+.content span{
+    color:orangered;
+    font-size: 40px;
+}
+
+.form{
+    width:250px;
+    height:380px;
+    background:rgb(27, 27, 26); 
+    height: 55vh;
+    border-radius: 10px;
+    position: absolute;
+    padding: 15px;
+    top:240px;
+    left:870px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color:orangered;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 5px;
+}
+
+.form input{
+    width:240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color:white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+
+.form input:focud{
+    outline: none;
+}
+
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+
+.btnn {
+    width:240px;
+    padding: 10;
+    background: orangered;
+    border: none;
+    margin-top: 40px;
+    font-family:sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: .7s, ease;
+    text-align: center;
+}
+
+.btnn:hover {
+    background: white;
+    color: orangered;
+}
+
+.btnn a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.link{
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+}
+
+.link a {
+    text-decoration: none;
+    color: orangered;
+    line-height: 30px;
+    border-radius:7px;
+    padding: 3px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.link a:hover{
+    background: orangered;
+    color: black;
     
-        }
-        .main {
-        background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(bdg.jpg);
-        background-position: center;
-        background-size: cover;
-        height: 209vh;
-        }
-        .navbr {
-            width: 1200px;
-            height: 75px;
-            margin: auto;
-        }
-        .icon {
-            width: 200px;
-            float: left;
-            height: 70px;
-        }
-        .logo{
-            color: orangered;
-            font-size: 35px;
-            font-family: Arial;
-            padding-left: 20px;
-            float: left;
-            padding-top:10px;
-            text-decoration-style: double;
-        } 
-    
-        .menu {
-            width: 400px;
-            float: left;
-            height: 70px;
-        }
-        ul {
-            float: left;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        ul li{
-            list-style: none;
-            margin-left: 50px;
-            margin-top: 27px;
-        }
-    
-        ul li a{
-            text-decoration: none;
-            color: white;
-            font-family: Arial;
-            font-weight: bold;
-            transition:0.5s ease-in-out;
-        }
-    
-        ul li a:hover{
-            color: orangered;
-        }
-     
-        .search {
-            width:400px;
-            float:left;
-            margin-left: 260px;
-        }
-    
-        .srch {
-            font-family: 'Times New Roman';
-            width: 200px;
-            height: 40px;
-            background: transparent;
-            border: 1px solid;
-            margin-top:15px;
-            color: white;
-            font-size: 17px;
-            padding: 10px;
-            border-bottom-left-radius: 5px;
-            border-top-left-radius: 5px;
-        }
-    
-        .btn {
-            width: 100px;
-            height: 40px;
-            background: orangered;
-            border: 2px solid orangered;
-            margin-top:13px;
-            color: white;
-            font-size: 15px;
-            font-family: sans-serif;
-            padding: 9px;
-            border-bottom-right-radius: 5px;
-            border-top-right-radius: 5px;
-            transition: .3s ease;
-        }
-    
-        .btn:hover{
-            background: transparent;
-            border-color:white;
-        }
-    
-        .a {
-            text-decoration: none;
-        }
-    
-    
-        .a:hover{
-            color:black;
-        }
-        
-        .btn:focus {
-            outline:none;
-        }
-    
-        .srch:focus {
-            outline:none;
-        }
-    
-        .content {
-            width:1200px;
-            padding: 10px;
-            height: auto;
-            margin: auto;
-            color:whitesmoke;
-        }
-    
-        .content .par{
-            padding-left: 20px;
-            padding-bottom: 25px;
-            font-family: Arial;
-            letter-spacing: 1.2px;
-            line-height: 25px;
-        }
-    
-        .content h1{
-            font-family: 'Times New Roman';
-            font-size: 35px;
-            padding-left: 20px;
-            margin-top: 9%;
-            letter-spacing: 2px;
-            line-height: 40px;
-        }
-    
-        .content .cn{
-            padding: 10px;
-            font-family: sans-serif;
-            background: orangered;
-            border:none;
-            margin-top: 10px;
-            margin-left: 20px;
-            font-size: 17px;
-            border-radius: 7px;
-            cursor:pointer;
-            transition: .4s ease;
-        }
-    
-        .content .cn a{
-            text-decoration: none;
-            color:black;
-            transition: .3s ease;
-        }
-    
-        .cn:hover{
-            background: white;
-        }
-    
-        .content span{
-            color:orangered;
-            font-size: 40px;
-        }
-    
-        .form{
-            width:250px;
-            height:380px;
-            background:rgb(27, 27, 26); 
-            height: 55vh;
-            border-radius: 10px;
-            position: absolute;
-            padding: 15px;
-            top:240px;
-            left:870px;
-        }
-    
-        .form h2{
-            width: 220px;
-            font-family: sans-serif;
-            text-align: center;
-            color:orangered;
-            font-size: 22px;
-            background-color: white;
-            border-radius: 10px;
-            margin: 2px;
-            padding: 5px;
-        }
-    
-        .form input{
-            width:240px;
-            height: 35px;
-            background: transparent;
-            border-bottom: 1px solid orangered;
-            border-top: none;
-            border-right: none;
-            border-left: none;
-            color:white;
-            font-size: 15px;
-            letter-spacing: 1px;
-            font-family: sans-serif;
-            line-height: 40px;
-        }
-    
-        .form input:focud{
-            outline: none;
-        }
-    
-        ::placeholder{
-            color: white;
-            font-family: Arial;
-        }
-    
-        .btnn {
-            width:240px;
-            padding: 10;
-            background: orangered;
-            border: none;
-            margin-top: 40px;
-            font-family:sans-serif;
-            font-size: 18px;
-            border-radius: 10px;
-            cursor: pointer;
-            color: white;
-            transition: .7s, ease;
-            text-align: center;
-        }
-    
-        .btnn:hover {
-            background: white;
-            color: orangered;
-        }
-    
-        .btnn a{
-            color: black;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 25px;
-        }
-    
-        .link{
-            text-align: center;
-            margin-top: 30px;
-            text-decoration: none;
-            color: white;
-            font-size: 18px;
-    
-        }
-    
-        .link a {
-            text-decoration: none;
-            color: orangered;
-            line-height: 30px;
-            border-radius:7px;
-            padding: 3px;
-            font-weight: bold;
-            letter-spacing: 1px;
-        }
-    
-        .link a:hover{
-            background: orangered;
-            color: black;
-            
-            font-size: 17px;
-        }
-    
-        .liw{
-            text-align: center;
-            margin-top: 16px;
-            font-size: 18px;
-            line-height: 40px;
-        }
-        
-        .liw span a{
-            color: white;
-            font-size: 35px;
-            transition: .2s ease;
-        }
-    
-        .liw span a:hover{
-            color: orangered;
-        }
-        </style>
+    font-size: 17px;
+}
+
+.liw{
+    text-align: center;
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.liw span a{
+    color: white;
+    font-size: 35px;
+    transition: .2s ease;
+}
+
+.liw span a:hover{
+    color: orangered;
+}
+</style>
 </html>
